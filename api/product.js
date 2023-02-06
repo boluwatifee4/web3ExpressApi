@@ -1,6 +1,5 @@
 const Moralis = require('moralis').default;
 const express = require('express');
-const cors = require('cors');
 const { EvmChain } = require('@moralisweb3/common-evm-utils');
 const router = express.Router();
 
