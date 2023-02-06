@@ -2,7 +2,7 @@ const Moralis = require('moralis').default;
 const express = require('express');
 const { EvmChain } = require('@moralisweb3/common-evm-utils');
 const router = express.Router();
-
+var cors = require('cors');
 /**
  * GET product list.
  *
@@ -11,6 +11,10 @@ const router = express.Router();
 
 const MORALIS_API_KEY = 'J0z4vfkCmqGFlqy7RzkQsMWRlsUcR5Ek3Ftl1AbMbjx9cBFHIfq9uvfyVOVNtsRe';
 const address = '0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d';
+
+app.use(cors({
+  credentials: true,
+}));
 
 
 router.get("/", async (req, res) => {
