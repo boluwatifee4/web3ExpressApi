@@ -11,8 +11,21 @@ var cors = require('cors');
 const app = express();
 const MORALIS_API_KEY = 'J0z4vfkCmqGFlqy7RzkQsMWRlsUcR5Ek3Ftl1AbMbjx9cBFHIfq9uvfyVOVNtsRe';
 const address = '0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d';
-app.use(cors());
+
+var allowedOrigins = ['http://localhost:4200',
+                      'http://yourapp.com'];
 app.use(cors({
+  origin: function(origin, callback){
+    // allow requests with no origin 
+    // (like mobile apps or curl requests)
+    if(!origin) return callback(null, true);
+    if(allowedOrigins.indexOf(origin) === -1){
+      var msg = 'The CORS policy for this site does not ' +
+                'allow access from the specified Origin.';
+      return callback(new Error(msg), false);
+    }
+    return callback(null, true);
+  },
   credentials: true,
 }));
 
