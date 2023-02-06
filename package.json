@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hatuanem199801/express-vercel.git"
+    "url": "https://github.com/boluwatifee4/web3ExpressApi"
   },
   "keywords": [],
-  "author": "",
+  "author": "bima",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hatuanem199801/express-vercel/issues"
+    "url": "https://github.com/boluwatifee4/web3ExpressApi/issues"
   },
-  "homepage": "https://github.com/hatuanem199801/express-vercel#readme",
+  "homepage": "https://github.com/boluwatifee4/web3ExpressApi#readme",
   "dependencies": {
     "express": "^4.17.1",
      "moralis": "^2.12.0"
