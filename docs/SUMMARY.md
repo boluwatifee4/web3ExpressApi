@@ -1,5 +1,6 @@
+# Table of contents
 
-# Summary​
+* [README](README.md)
 
 ## Use headings to create page groups like this one​
 
@@ -9,10 +10,9 @@
     * [Resolve an Unstoppable Name](EVMApi//resolve/RESOLVEUD.md)
   * [Balance Api](EVMApi/BALANCEApi.md)
   * [Token Api](EVMApi/TOKENApi.md)
-
-* [Solana Api](page2/README.md)
-  * [Coming soon](page2/page2-1.md)
+* [Solana Api](use-headings-to-create-page-groups-like-this-one/solana-api/README.md)
+  * [Coming soon](use-headings-to-create-page-groups-like-this-one/solana-api/coming-soon.md)
 
 ## A second-page group​
 
-* [Yet another page](another-page.md)
+* [Yet another page](a-second-page-group/yet-another-page.md)
