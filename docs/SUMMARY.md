@@ -1,7 +1,7 @@
 
 # Summary​
 
-## Use headings to create page groups like this one​
+## Outline
 
 * [EVM Api](EVMApi/README.md)
   * [Resolve Api](EVMApi/resolve/RESOLVEApi.md)
