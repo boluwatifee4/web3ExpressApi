@@ -35,7 +35,7 @@ Get https://web3-express-api.vercel.app/v1/resolveEns/:address
 https://web3-express-api.vercel.app/v1/resolveEns/0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419
 ```
 
-## How to use endpiont
+
 
 <!-- tabs -->
 
@@ -152,6 +152,24 @@ curl --location --request GET 'https://web3-express-api.vercel.app/v1/resolveEns
 {% endtab %}
 
 {% endtabs %}
+
+## Example Response Body 
+
+```json
+{
+    "name": "vitalik.eth"
+}
+```
+
+## Error Responses
+
+| Error Code | Description |
+| :--- | :--- |
+| 400 | Bad Request |
+| 401 | Unauthorized |
+| 404 | Not Found |
+| 500 | Internal Server Error |
+
 
 
 
