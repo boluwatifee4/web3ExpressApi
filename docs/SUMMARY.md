@@ -1,6 +1,6 @@
 # Table of contents
 
-* [README](README.md)
+* [Overview](Overview.md)
 
 ## Outline
 
@@ -10,9 +10,6 @@
     * [Resolve an Unstoppable Name](EVMApi/resolve/RESOLVEUD.md)
   * [Balance Api](EVMApi/BALANCEApi.md)
   * [Token Api](EVMApi/TOKENApi.md)
-* [Solana Api](use-headings-to-create-page-groups-like-this-one/solana-api/README.md)
-  * [Coming soon](use-headings-to-create-page-groups-like-this-one/solana-api/coming-soon.md)
+* [Solana Api]()
+  * [Coming soon]()
 
-## A second-page group​
-
-* [Yet another page](a-second-page-group/yet-another-page.md)
