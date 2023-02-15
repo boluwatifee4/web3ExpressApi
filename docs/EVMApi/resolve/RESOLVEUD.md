@@ -74,7 +74,7 @@ export default app;
 
 {% endtab %}
 
-{$ tab title = "Vanilla JS" %}
+{% tab title="Vanilla JS" %}
 
 ```js
 
