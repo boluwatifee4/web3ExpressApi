@@ -10,13 +10,13 @@ The Resolve ENS Name API is used to resolve an ENS name. This API is used to get
 
 ## Prerequisites
 
--   [Node.js](https://nodejs.org/en/download/)
--   [NPM](https://www.npmjs.com/get-npm) or [Yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
--   [Moralis](https://docs.moralis.io/)
+- [Node.js](https://nodejs.org/en/download/)
+- [NPM](https://www.npmjs.com/get-npm) or [Yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
+- [Moralis](https://docs.moralis.io/)
 
 ## How to use the Resolve ENS Name API
 
-### Endpoint Url 
+### Endpoint Url
 
 ```text
 Get https://web3-express-api.vercel.app/v1/resolveEns/:address
@@ -27,7 +27,7 @@ Get https://web3-express-api.vercel.app/v1/resolveEns/:address
 | Parameter Name | Description | Required | Type | Parameter Type |
 | :--- | :--- | :--- | :--- | :--- |
 | address | The ENS address to resolve | Yes | string | Path |
-|x-api-key| The API key for the Moralis server | Yes | string | Header | 
+|x-api-key| The API key for the Moralis server | Yes | string | Header |
 
 ### Example Request Url
 
@@ -35,15 +35,13 @@ Get https://web3-express-api.vercel.app/v1/resolveEns/:address
 https://web3-express-api.vercel.app/v1/resolveEns/0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419
 ```
 
-
-
 <!-- tabs -->
 
 {% tabs %}
 
 {% tab title="React.js" %}
 
-```jsx 
+```jsx
 import React from 'react';
 import axios from 'axios';
 
@@ -153,7 +151,7 @@ curl --location --request GET 'https://web3-express-api.vercel.app/v1/resolveEns
 
 {% endtabs %}
 
-## Example Response Body 
+## Example Response Body
 
 ```json
 {
@@ -169,7 +167,3 @@ curl --location --request GET 'https://web3-express-api.vercel.app/v1/resolveEns
 | 401 | Unauthorized |
 | 404 | Not Found |
 | 500 | Internal Server Error |
-
-
-
-
