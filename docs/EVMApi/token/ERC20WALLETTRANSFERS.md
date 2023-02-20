@@ -6,14 +6,6 @@ The ERC20 wallet Transfer Api is used to get all ERC20 transfers by wallet
 
 <!-- How to call the enpiont  -->
 
-<!-- Prerequisites -->
-
-## Prerequisites
-
-- [Node.js](https://nodejs.org/en/download/)
-- [NPM](https://www.npmjs.com/get-npm) or [Yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
-- [Moralis](https://docs.moralis.io/)
-
 ## How to use the ERC20WALLETTRANSFER API
 
 ### Endpoint URL

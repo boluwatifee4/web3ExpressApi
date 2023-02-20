@@ -2,17 +2,9 @@
 
 ## What is the MULTISIGWALLETBAL Api
 
-The MULTISIGWALLET Api is used get the native balance of a multi-signature wallet.
+The MULTISIGWALLET Api is used retrieve the native balance of a multi-signature wallet.
 
 <!-- How to call the enpiont  -->
-
-<!-- Prerequisites -->
-
-## Prerequisites
-
--   [Node.js](https://nodejs.org/en/download/)
--   [NPM](https://www.npmjs.com/get-npm) or [Yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
--   [Moralis](https://docs.moralis.io/)
 
 ## How to use the Resolve Unstoppable Domain Name API
 

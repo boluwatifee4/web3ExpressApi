@@ -2,17 +2,9 @@
 
 ## What is the Resolve ENS Name API?
 
-The Resolve ENS Name API is used to resolve an ENS name. This API is used to get the address of an ENS name.
+The Resolve ENS Name API helps you to resolve an ENS domain name and retrieve the corresponding wallet address.
 
 <!-- How to call the enpiont  -->
-
-<!-- Prerequisites -->
-
-## Prerequisites
-
-- [Node.js](https://nodejs.org/en/download/)
-- [NPM](https://www.npmjs.com/get-npm) or [Yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
-- [Moralis](https://docs.moralis.io/)
 
 ## How to use the Resolve ENS Name API
 

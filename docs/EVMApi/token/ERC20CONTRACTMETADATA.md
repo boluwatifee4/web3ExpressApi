@@ -6,14 +6,6 @@ The ERC20CONTRACTMETADATA Api is used to get ERC20 metadata by contract.
 
 <!-- How to call the enpiont  -->
 
-<!-- Prerequisites -->
-
-## Prerequisites
-
-- [Node.js](https://nodejs.org/en/download/)
-- [NPM](https://www.npmjs.com/get-npm) or [Yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
-- [Moralis](https://docs.moralis.io/)
-
 ## How to use the Resolve ENS Name API
 
 ### Endpoint Url

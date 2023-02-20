@@ -6,25 +6,21 @@ The Resolve Unstoppable Domain Name API is used to resolve an Unstoppable Domain
 
 <!-- How to call the enpiont  -->
 
-<!-- Prerequisites -->
-
-## Prerequisites
-
--   [Node.js](https://nodejs.org/en/download/)
--   [NPM](https://www.npmjs.com/get-npm) or [Yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
--   [Moralis](https://docs.moralis.io/)
-
 ## How to use the Resolve Unstoppable Domain Name API
 
-### Endpoint Url 
+### Endpoint Url
 
 ```text
-Get https://web3-express-api.vercel.app/v1/resolveUdDomains/:domain
+https://web3-express-api.vercel.app/v1/resolveUdDomains/:domain
 ```
+
+### Request Method
+
+* GET
 
 ### Parameters
 
-| Parameter Name | Description | Required | Type | Parameter Type |
+| Parameter Name | Description | Required | Type | Parameter Type | 
 | :--- | :--- | :--- | :--- | :--- |
 | domain | The Unstoppable Domain name to resolve | Yes | string | Path |
 |x-api-key| The API key for the Moralis server | Yes | string | Header |
@@ -151,9 +147,9 @@ curl --location --request GET 'https://web3-express-api.vercel.app/v1/resolveUdD
 
 {% endtabs %}
 
-# Example Response Body 
+# Example Response Body
 
-```json 
+```json
 {
     "address": "0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419",
 }
