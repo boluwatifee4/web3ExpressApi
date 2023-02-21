@@ -1,10 +1,6 @@
 # ERC20 TOKEN VAULT API
 
-## What is the ERC20 Token Vault Api
-
 The ERC20TOKENVAULTBAL Api is used to get the native balance of an ERC20 token vault.
-
-## How to use the Resolve ENS Name API
 
 ### Endpoint Url 
 

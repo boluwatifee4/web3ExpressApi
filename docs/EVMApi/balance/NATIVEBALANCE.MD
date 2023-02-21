@@ -1,10 +1,6 @@
 # NATIVE BALANCE
 
-## What is the Native Balance Api
-
 NativeBalance API endpoint enables you to obtain the native balance of a wallet address.
-
-## How to use the Resolve ENS Name API
 
 ### Endpoint Url
 

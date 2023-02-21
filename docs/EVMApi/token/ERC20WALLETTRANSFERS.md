@@ -1,14 +1,10 @@
 # ERC20 WALLET TRANSFER API
 
-## What is the ERC20WALLETTRANSFERS Api
-
 The ERC20 wallet Transfer Api is used to get all ERC20 transfers by wallet
 
 <!-- How to call the enpiont  -->
 
-## How to use the ERC20WALLETTRANSFER API
-
-### Endpoint URL
+## Endpoint URL
 
 ```text
 https://web3-express-api.vercel.app/v1/getERC20TransfersByWallet/address:

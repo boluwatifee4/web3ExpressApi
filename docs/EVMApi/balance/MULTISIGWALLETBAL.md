@@ -1,12 +1,8 @@
 # MULTISIGWALLETBAL API
 
-## What is the MULTISIGWALLETBAL Api
-
 The MULTISIGWALLET Api is used retrieve the native balance of a multi-signature wallet.
 
 <!-- How to call the enpiont  -->
-
-## How to use the Resolve Unstoppable Domain Name API
 
 ### Endpoint Url 
 

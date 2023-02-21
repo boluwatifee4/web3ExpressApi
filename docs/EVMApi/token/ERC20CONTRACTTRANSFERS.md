@@ -1,14 +1,10 @@
 # ERC20CONTRACT TRANSFER API
 
-## What is the ERC20CONTRACTTRANSFERS Api
-
 The ERC20CONTRACTTRANSFERS API is used to to get all ERC20 transfers by contract.
 
 <!-- How to call the enpiont  -->
 
-## How to use the Resolve ENS Name API
-
-### Endpoint Url
+## Endpoint Url
 
 ```text
 https://web3-express-api.vercel.app/v1/getERC20Transfers/:address

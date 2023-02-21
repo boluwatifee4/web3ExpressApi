@@ -1,14 +1,10 @@
 # ERC20TOKENADDRESS API
 
-## What is the ERC20TOKENADDRESS Api?
-
 The ERC20TOKENADDRTESS Api is used to get all ERC20 tokens owned by an address.
 
 <!-- How to call the enpiont  -->
 
-## How to use the Resolve ENS Name API
-
-### Endpoint Url
+## Endpoint Url
 
 ```text
 https://web3-express-api.vercel.app/v1/getERC20Tokens/address:

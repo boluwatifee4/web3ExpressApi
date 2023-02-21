@@ -1,7 +1,5 @@
 # TOKEN API ENDPOINTS
 
-## What is a Token Api
-
 The Moralis Token API makes it simple and quick for Web3 developers to create and scale dapps. You may access all the ERC20 token data you require from several blockchains.
 
 ## What are the Token Api Endpoints?

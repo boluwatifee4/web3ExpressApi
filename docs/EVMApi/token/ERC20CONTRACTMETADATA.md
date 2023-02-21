@@ -1,14 +1,10 @@
 # ERC20CONTRACTMETADATA API
 
-## What is the ERC20CONTRACTMETADATA Api
-
 The ERC20CONTRACTMETADATA Api is used to get ERC20 metadata by contract.
 
 <!-- How to call the enpiont  -->
 
-## How to use the Resolve ENS Name API
-
-### Endpoint Url
+## Endpoint Url
 
 ```text
 https://web3-express-api.vercel.app/v1/getERC20Metadata/address:
@@ -28,7 +24,7 @@ https://web3-express-api.vercel.app/v1/getERC20Metadata/address:
 | :--- | :--- | :--- | :--- | :--- |
 | address | The ENS address to resolve | Yes | string | Path |
 |x-api-key| The API key for the Moralis server | Yes | string | Header |
- 
+
 ### Example Request Url
 
 ```text

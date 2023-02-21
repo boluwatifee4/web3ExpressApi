@@ -1,12 +1,8 @@
 # RESOLVE UNSTOPPABLE DOMAIN NAME
 
-## What is the Resolve Unstoppable Domain Name API?
-
 The Resolve Unstoppable Domain Name API is used to resolve an Unstoppable Domain name. This API is used to get the address of an Unstoppable Domain name.
 
 <!-- How to call the enpiont  -->
-
-## How to use the Resolve Unstoppable Domain Name API
 
 ### Endpoint Url
 

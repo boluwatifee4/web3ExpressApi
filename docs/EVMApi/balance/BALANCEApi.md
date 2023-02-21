@@ -1,7 +1,5 @@
 # BALANCE API ENDPOINTS
 
-## What is the Balance Api
-
 The Balance API enables Web3 developers to obtain the native balance for a given wallet address.
 
 ## What are the Balance Api endpoints?

@@ -1,12 +1,8 @@
 # RESOLVE ENS NAME
 
-## What is the Resolve ENS Name API?
-
 The Resolve ENS Name API helps you to resolve an ENS domain name and retrieve the corresponding wallet address.
 
 <!-- How to call the enpiont  -->
-
-## How to use the Resolve ENS Name API
 
 ### Endpoint Url
 
