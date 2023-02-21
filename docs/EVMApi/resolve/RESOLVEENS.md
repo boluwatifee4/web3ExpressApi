@@ -11,8 +11,16 @@ The Resolve ENS Name API helps you to resolve an ENS domain name and retrieve th
 ### Endpoint Url
 
 ```text
-Get https://web3-express-api.vercel.app/v1/resolveEns/:address
+https://web3-express-api.vercel.app/v1/resolveEns/:address
 ```
+
+### Request Method
+
+* GET
+
+### Authentication
+
+* x-api-key
 
 ### Parameters
 
@@ -134,9 +142,9 @@ export default {
 {% tab title="Curl" %}
 
 ```bash
-x-api-key: bahdjkdkadlmkjajhd899rkf
-
-curl --location --request GET 'https://web3-express-api.vercel.app/v1/resolveEns/0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419' \ 
+curl \
+--request GET 'https://web3-express-api.vercel.app/v1/resolveEns/0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419' \
+--header 'x-api-key: {MORALIS_API_KEY}'
 ```
 
 {% endtab %}
@@ -150,12 +158,3 @@ curl --location --request GET 'https://web3-express-api.vercel.app/v1/resolveEns
     "name": "vitalik.eth"
 }
 ```
-
-## Error Responses
-
-| Error Code | Description |
-| :--- | :--- |
-| 400 | Bad Request |
-| 401 | Unauthorized |
-| 404 | Not Found |
-| 500 | Internal Server Error |

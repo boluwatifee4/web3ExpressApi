@@ -9,8 +9,16 @@ The ERC20TOKENVAULTBAL Api is used to get the native balance of an ERC20 token v
 ### Endpoint Url 
 
 ```text
-Get https://web3-express-api.vercel.app/v1/getERC20TransfersByWallet/address:
+https://web3-express-api.vercel.app/v1/getERC20TransfersByWallet/address:
 ```
+
+### Request Method
+
+* GET
+
+### Authentication
+
+* x-api-key
 
 ### Parameters
 
@@ -46,9 +54,9 @@ https://web3-express-api.vercel.app/v1/getERC20VaultBalance/0xbc4ca0eda7647a8ab7
 {% tab title="Curl" %}
 
 ```bash
-x-api-key: J0z4vfkCmqGFlqy7RzkQsMWRlsUcR5Ek3Ftl1AbMbjx9cBFHIfq9uvfyVOVNtsRe
-
-curl --location --request GET 'https://web3-express-api.vercel.app/v1/getERC20VaultBalance/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d' \ 
+curl \
+--request GET 'https://web3-express-api.vercel.app/v1/getERC20VaultBalance/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d' \
+--header 'x-api-key: {MORALIS_API_KEY}'
 ```
 
 {% endtab %}
@@ -62,16 +70,3 @@ curl --location --request GET 'https://web3-express-api.vercel.app/v1/getERC20Va
   "balance": "900051407680925500000"
 }
 ```
-
-## Error Responses
-
-| Error Code | Description |
-| :--- | :--- |
-| 400 | Bad Request |
-| 401 | Unauthorized |
-| 404 | Not Found |
-| 500 | Internal Server Error |
-
-
-
-

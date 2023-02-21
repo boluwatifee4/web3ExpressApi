@@ -11,8 +11,16 @@ The ERC20TOKENADDRTESS Api is used to get all ERC20 tokens owned by an address.
 ### Endpoint Url
 
 ```text
-Get https://web3-express-api.vercel.app/v1/getERC20Tokens/address:
+https://web3-express-api.vercel.app/v1/getERC20Tokens/address:
 ```
+
+### Request Method
+
+* GET
+
+### Authentication
+
+* x-api-key
 
 ### Parameters
 
@@ -49,6 +57,12 @@ https://web3-express-api.vercel.app/v1/getERC20Tokens/0xbc4ca0eda7647a8ab7c2061c
 
 {% tab title="Curl" %}
 
+```bash
+curl \
+--request GET 'https://web3-express-api.vercel.app/v1/getERC20Tokens/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d' \
+--header 'x-api-key: {MORALIS_API_KEY}'
+```
+
 {% endtab %}
 
 {% endtab %}
@@ -66,13 +80,3 @@ https://web3-express-api.vercel.app/v1/getERC20Tokens/0xbc4ca0eda7647a8ab7c2061c
     "balance": "101715701444169451516503179"
   }
 ```
-
-## Error Responses
-
-| Error Code | Description |
-| :--- | :--- |
-| 400 | Bad Request |
-| 401 | Unauthorized |
-| 404 | Not Found |
-| 500 | Internal Server Error |
-

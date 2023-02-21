@@ -18,6 +18,10 @@ https://web3-express-api.vercel.app/v1/resolveUdDomains/:domain
 
 * GET
 
+### Authentication
+
+* x-api-key
+
 ### Parameters
 
 | Parameter Name | Description | Required | Type | Parameter Type | 
@@ -138,10 +142,11 @@ export default {
 {% tab title="Curl" %}
 
 ```bash
-x-api-key: bahdjkdkadlmkjajhd899rkf
-
-curl --location --request GET 'https://web3-express-api.vercel.app/v1/resolveUdDomains/brad.zil' \ 
+curl \
+--request GET 'https://web3-express-api.vercel.app/v1/resolveUdDomains/brad.zil' \
+--header 'x-api-key: {MORALIS_API_KEY}'
 ```
+
 
 {% endtab %}
 
@@ -154,12 +159,3 @@ curl --location --request GET 'https://web3-express-api.vercel.app/v1/resolveUdD
     "address": "0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419",
 }
 ```
-
-## Error Responses
-
-| Error Code | Description |
-| :--- | :--- |
-| 400 | Bad Request |
-| 401 | Unauthorized |
-| 404 | Not Found |
-| 500 | Internal Server Error |
