@@ -4,7 +4,7 @@
 
 ## Getting Started
 
-* [Introduction](INTRODUCTION.md)
+* [Introduction](GETTINGSTARTED/INTRODUCTION.md)
 
 ## API ENDPOINTS
 
