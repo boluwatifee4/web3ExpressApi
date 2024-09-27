@@ -1,30 +1,26 @@
 # RESOLVE UNSTOPPABLE DOMAIN NAME
 
-## What is the Resolve Unstoppable Domain Name API?
-
 The Resolve Unstoppable Domain Name API is used to resolve an Unstoppable Domain name. This API is used to get the address of an Unstoppable Domain name.
 
 <!-- How to call the enpiont  -->
 
-<!-- Prerequisites -->
-
-## Prerequisites
-
--   [Node.js](https://nodejs.org/en/download/)
--   [NPM](https://www.npmjs.com/get-npm) or [Yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
--   [Moralis](https://docs.moralis.io/)
-
-## How to use the Resolve Unstoppable Domain Name API
-
-### Endpoint Url 
+### Endpoint Url
 
 ```text
-Get https://web3-express-api.vercel.app/v1/resolveUdDomains/:domain
+https://web3-express-api.vercel.app/v1/resolveUdDomains/:domain
 ```
+
+### Request Method
+
+* GET
+
+### Authentication
+
+* x-api-key
 
 ### Parameters
 
-| Parameter Name | Description | Required | Type | Parameter Type |
+| Parameter Name | Description | Required | Type | Parameter Type | 
 | :--- | :--- | :--- | :--- | :--- |
 | domain | The Unstoppable Domain name to resolve | Yes | string | Path |
 |x-api-key| The API key for the Moralis server | Yes | string | Header |
@@ -142,28 +138,20 @@ export default {
 {% tab title="Curl" %}
 
 ```bash
-x-api-key: bahdjkdkadlmkjajhd899rkf
-
-curl --location --request GET 'https://web3-express-api.vercel.app/v1/resolveUdDomains/brad.zil' \ 
+curl \
+--request GET 'https://web3-express-api.vercel.app/v1/resolveUdDomains/brad.zil' \
+--header 'x-api-key: {MORALIS_API_KEY}'
 ```
+
 
 {% endtab %}
 
 {% endtabs %}
 
-# Example Response Body 
+# Example Response Body
 
-```json 
+```json
 {
     "address": "0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419",
 }
 ```
-
-## Error Responses
-
-| Error Code | Description |
-| :--- | :--- |
-| 400 | Bad Request |
-| 401 | Unauthorized |
-| 404 | Not Found |
-| 500 | Internal Server Error |

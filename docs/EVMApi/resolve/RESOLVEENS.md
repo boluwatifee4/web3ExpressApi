@@ -1,33 +1,29 @@
 # RESOLVE ENS NAME
 
-## What is the Resolve ENS Name API?
-
-The Resolve ENS Name API is used to resolve an ENS name. This API is used to get the address of an ENS name.
+The Resolve ENS Name API helps you to resolve an ENS domain name and retrieve the corresponding wallet address.
 
 <!-- How to call the enpiont  -->
 
-<!-- Prerequisites -->
-
-## Prerequisites
-
--   [Node.js](https://nodejs.org/en/download/)
--   [NPM](https://www.npmjs.com/get-npm) or [Yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
--   [Moralis](https://docs.moralis.io/)
-
-## How to use the Resolve ENS Name API
-
-### Endpoint Url 
+### Endpoint Url
 
 ```text
-Get https://web3-express-api.vercel.app/v1/resolveEns/:address
+https://web3-express-api.vercel.app/v1/resolveEns/:address
 ```
+
+### Request Method
+
+* GET
+
+### Authentication
+
+* x-api-key
 
 ### Parameters
 
 | Parameter Name | Description | Required | Type | Parameter Type |
 | :--- | :--- | :--- | :--- | :--- |
 | address | The ENS address to resolve | Yes | string | Path |
-|x-api-key| The API key for the Moralis server | Yes | string | Header | 
+|x-api-key| The API key for the Moralis server | Yes | string | Header |
 
 ### Example Request Url
 
@@ -35,15 +31,13 @@ Get https://web3-express-api.vercel.app/v1/resolveEns/:address
 https://web3-express-api.vercel.app/v1/resolveEns/0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419
 ```
 
-
-
 <!-- tabs -->
 
 {% tabs %}
 
 {% tab title="React.js" %}
 
-```jsx 
+```jsx
 import React from 'react';
 import axios from 'axios';
 
@@ -144,32 +138,19 @@ export default {
 {% tab title="Curl" %}
 
 ```bash
-x-api-key: bahdjkdkadlmkjajhd899rkf
-
-curl --location --request GET 'https://web3-express-api.vercel.app/v1/resolveEns/0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419' \ 
+curl \
+--request GET 'https://web3-express-api.vercel.app/v1/resolveEns/0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419' \
+--header 'x-api-key: {MORALIS_API_KEY}'
 ```
 
 {% endtab %}
 
 {% endtabs %}
 
-## Example Response Body 
+## Example Response Body
 
 ```json
 {
     "name": "vitalik.eth"
 }
 ```
-
-## Error Responses
-
-| Error Code | Description |
-| :--- | :--- |
-| 400 | Bad Request |
-| 401 | Unauthorized |
-| 404 | Not Found |
-| 500 | Internal Server Error |
-
-
-
-

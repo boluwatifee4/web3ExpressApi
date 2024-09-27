@@ -1,8 +1,6 @@
 # RESOLVE API ENDPOINTS
 
-## What is the Resolve API?
-
-The Resolve API is used to resolve an ENS or Unstoppable Domain name. This API is used to get the address of an ENS or Unstoppable Domain name.
+The Resolve API is used for resolving an ENS or Unstoppable Domain name, allowing for obtaining the associated address.
 
 ## What are the Resolve API endpoints?
 

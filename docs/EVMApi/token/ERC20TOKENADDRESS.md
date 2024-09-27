@@ -1,13 +1,13 @@
-# ERC20CONTRACT TRANSFER API
+# ERC20TOKENADDRESS API
 
-The ERC20CONTRACTTRANSFERS API is used to to get all ERC20 transfers by contract.
+The ERC20TOKENADDRTESS Api is used to get all ERC20 tokens owned by an address.
 
 <!-- How to call the enpiont  -->
 
 ## Endpoint Url
 
 ```text
-https://web3-express-api.vercel.app/v1/getERC20Transfers/:address
+https://web3-express-api.vercel.app/v1/getERC20Tokens/address:
 ```
 
 ### Request Method
@@ -28,7 +28,7 @@ https://web3-express-api.vercel.app/v1/getERC20Transfers/:address
 ### Example Request Url
 
 ```text
-https://web3-express-api.vercel.app/v1/getERC20Transfers/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d
+https://web3-express-api.vercel.app/v1/getERC20Tokens/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d
 ```
 
 <!-- tabs -->
@@ -55,7 +55,7 @@ https://web3-express-api.vercel.app/v1/getERC20Transfers/0xbc4ca0eda7647a8ab7c20
 
 ```bash
 curl \
---request GET 'https://web3-express-api.vercel.app/v1/getERC20Transfers/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d' \
+--request GET 'https://web3-express-api.vercel.app/v1/getERC20Tokens/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d' \
 --header 'x-api-key: {MORALIS_API_KEY}'
 ```
 
@@ -67,10 +67,12 @@ curl \
 
 ```json
 {
-  "total": "null,",
-  "page": "0,",
-  "page_size": "100,",
-  "cursor": "null,",
-  "result": []
-}
+    "token_address": "0xefd6c64533602ac55ab64442307f6fe2c9307305",
+    "name": "APE",
+    "symbol": "APE",
+    "logo": null,
+    "thumbnail": null,
+    "decimals": 18,
+    "balance": "101715701444169451516503179"
+  }
 ```
